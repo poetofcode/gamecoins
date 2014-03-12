@@ -1,0 +1,4 @@
+gamecoins
+=========
+
+Catch the coins!
