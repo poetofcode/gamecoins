@@ -199,6 +199,7 @@ $(document).ready(function() {
 			$(that).focus();
 		});
 		gameplay.start();
+		return false;
 	}).focus();
 
 	$(this).keydown(function(e) {
