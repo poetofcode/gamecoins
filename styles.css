@@ -1,0 +1,42 @@
+body {
+	background-color: #000;
+}
+.hidden {
+	visibility: hidden;
+}
+.btn {
+	text-decoration: none;
+	font-size: 36px;
+	color: #001FD3;
+	background-color: #FFFA43;
+	border-radius: 10px;
+	padding: 20px 30px;
+	outline: none;
+}
+main {
+	width: 100%;
+}
+#game {
+	width: 1000px;
+	height: 550px;
+	margin: 0 auto;
+	background-color: #930074;
+}
+#gameScreen {
+	margin: 0;
+}
+#mainTitle {
+	color: rgb(0, 200, 0);
+	text-align: center;
+}
+#help {
+	color: #AAA;
+	text-align: center;
+}
+.btn-container {
+	text-align: center;
+	width: 200px;
+	margin: 0 auto;
+	margin-top: -290px;
+	position: relative;
+}
