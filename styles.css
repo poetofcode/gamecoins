@@ -32,6 +32,7 @@ main {
 #help {
 	color: #AAA;
 	text-align: center;
+	margin-right: 10px;
 }
 .btn-container {
 	text-align: center;
