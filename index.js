@@ -191,6 +191,9 @@ $(document).ready(function() {
 	var gameplay;
 
 	$('#go').live('click', function() {
+		if(gameplay && gameplay.isLaunched()) {
+			return false;
+		}
 		var that = this;
 		$(this).animate({ opacity: 0 });
 		gameplay = new Gameplay($("#gameScreen")[0]);
